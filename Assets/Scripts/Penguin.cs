@@ -6,6 +6,7 @@ public class Penguin : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D _penguinRigidbody;
     [SerializeField] private float _jumpForce = 2.0f;
+    [SerializeField] private GameController _gameController;
     private bool isGrounded;
     void Start()
     {
@@ -24,6 +25,14 @@ public class Penguin : MonoBehaviour
     {
         if (collision.gameObject.tag == "Ground" && !isGrounded) { 
             isGrounded = true;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        // Debug.Log("Contact with coin");
+        if (collision.gameObject.tag == "Coin") {
+            _gameController.collectCoin(collision.gameObject);
         }
     }
 }
