@@ -3,6 +3,10 @@
 ## Devlog
 Write your Devlog here!
 
+## Activity 1: MG2 Breakdown
+![IMG_2841](https://github.com/user-attachments/assets/acfa7e29-acb1-4381-b2d9-4b4c00131259)
+
+
 
 ## Open-Source Assets
 If you added any other outside assets, list them here!
