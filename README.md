@@ -6,7 +6,13 @@ Write your Devlog here!
 ## Activity 1: MG2 Breakdown
 ![IMG_2841](https://github.com/user-attachments/assets/acfa7e29-acb1-4381-b2d9-4b4c00131259)
 
-
+## Activity 2: MG2 Progress
+[Commits Made](https://github.com/UCI-GDIM32-W25/mg2-JeremyC140/commits/main/)
+I finished the assets setup, the jumping of penguin (and isGrounded check), the UI with TMP_text (but not yet the update part), collision check in the penguin script, and attempt on the coin moving script as well as the game controller. 
+TO-DO:
+- Fix the bugs that coins are not instantiate in the right posision
+- Fix coins not moving
+- Assign enough variables to update the text 
 
 ## Open-Source Assets
 If you added any other outside assets, list them here!
