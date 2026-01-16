@@ -41,4 +41,15 @@ public class GameController : MonoBehaviour
         num_coin_collected++;
         _pointText.text = "Points: " + num_coin_collected.ToString();
     }
+    void OnDrawGizmos()
+    {
+        Camera cam = Camera.main;
+        if (!cam || !cam.orthographic) return;
+
+        float h = cam.orthographicSize * 2f;
+        float w = h * cam.aspect;
+
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireCube(cam.transform.position, new Vector3(w, h, 0));
+    }
 }
