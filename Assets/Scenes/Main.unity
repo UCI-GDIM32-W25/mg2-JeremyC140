@@ -829,7 +829,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _penguinRigidbody: {fileID: 2137731000}
-  _jumpForce: 5
+  _jumpForce: 6.2
   _gameController: {fileID: 442964083}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
