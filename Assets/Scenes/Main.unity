@@ -309,6 +309,7 @@ MonoBehaviour:
   _coin: {fileID: 7972684291851322337, guid: 887f51facff426049b43897acac0b7c7, type: 3}
   minTimeItv: 0.6
   maxTimeItv: 1.5
+  coin_height: 13.5
   _pointText: {fileID: 1906952826}
 --- !u!1 &519420028
 GameObject:
@@ -828,7 +829,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _penguinRigidbody: {fileID: 2137731000}
-  _jumpForce: 8
+  _jumpForce: 5
   _gameController: {fileID: 442964083}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

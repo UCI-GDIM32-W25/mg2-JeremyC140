@@ -8,6 +8,7 @@ public class GameController : MonoBehaviour
     [SerializeField] private GameObject _coin;
     [SerializeField] private float minTimeItv = 2.0f;
     [SerializeField] private float maxTimeItv = 5.0f;
+    [SerializeField] private float coin_height = 10.0f;
     [SerializeField] private TMP_Text _pointText;
     private float timePassed;
     private float nextCoinSpawnTime;
@@ -28,7 +29,7 @@ public class GameController : MonoBehaviour
     }
 
     private void SpawnCoin() {
-        Instantiate(_coin, new Vector3(15, 15, 0), Quaternion.identity);
+        Instantiate(_coin, new Vector3(15, coin_height, 0), Quaternion.identity);
     }
 
     private void timeIntervalReset(float min, float max) {
