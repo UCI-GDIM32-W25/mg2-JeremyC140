@@ -9,6 +9,9 @@ public class CoinMovement : MonoBehaviour
 
     void Update()
     {
-        transform.position = Vector2.left * _speed * Time.deltaTime;
+        transform.position += Vector3.left * _speed * Time.deltaTime;
+        if (transform.position.x < -4) {
+            Destroy(this.gameObject);
+        }
     }
 }

@@ -307,8 +307,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _coin: {fileID: 7972684291851322337, guid: 887f51facff426049b43897acac0b7c7, type: 3}
-  minTimeItv: 2
-  maxTimeItv: 5
+  minTimeItv: 0.6
+  maxTimeItv: 1.5
+  _pointText: {fileID: 1906952826}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,7 +346,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.6304734, g: 0.96338004, b: 0.9685534, a: 0}
+  m_BackGroundColor: {r: 0.4986353, g: 0.5378127, b: 0.8301887, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -428,8 +429,8 @@ Transform:
   m_GameObject: {fileID: 1649077673}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -474.8858, y: -291.1968, z: 0}
-  m_LocalScale: {x: 20.229198, y: 3.8561249, z: 1}
+  m_LocalPosition: {x: -474.1611, y: -291.0114, z: 0}
+  m_LocalScale: {x: 18.778765, y: 3.4851656, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 442964082}
@@ -476,7 +477,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.4572118, g: 0.4550847, b: 0.74213827, a: 1}
+  m_Color: {r: 0.6078082, g: 0.947879, b: 0.9811321, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
